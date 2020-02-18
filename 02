@@ -1,0 +1,5 @@
+dias = float(input('Quantos dias alugou? '))
+km = float(input('Quantos km rodados? '))
+print(f'Valor do dia do carro: {dias*60}')
+print(f'Valor do km rodado: {km*0.15}')
+print(f'Valor do dia do carro mais os km rodados: {dias*60+km*0.15}')
