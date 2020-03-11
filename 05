@@ -1,0 +1,18 @@
+def conta_vogais(string):
+    string = string.lower() # para que a comparação não seja sensível a maiuscula/minuscula
+    result = {}
+    vogais = 'aeiou'
+    for i in vogais:
+        if i in string:
+            result[i] = string.count(i)
+    return result
+frase=input('escreva sua frase')
+print(conta_vogais(frase))
+letra = frase[0]
+print(letra)
+len(frase)
+comprimento = len(frase)
+print(frase[comprimento-1])
+split =frase.split(' ')
+comprimento2 = len(split)
+print(comprimento2)
